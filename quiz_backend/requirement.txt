@@ -1,0 +1,10 @@
+Django
+djangorestframework
+channels
+asgiref
+channels_redis
+gunicorn
+psycopg2
+serverless-wsgi
+django-cors-headers
+whitenoise
