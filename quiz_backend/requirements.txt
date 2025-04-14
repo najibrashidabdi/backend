@@ -4,8 +4,12 @@ channels
 asgiref
 channels_redis
 gunicorn
-psycopg2
-serverless-wsgi
+psycopg2            # or consider replacing with psycopg2-binary if needed
+# psycopg2-binary   # Uncomment this line instead of psycopg2 if you prefer it.
+serverless-wsgi     # Only if you really plan to deploy in a serverless environment.
 django-cors-headers
 whitenoise
 dj-database-url
+daphne
+python-dotenv       # For .env file support in development.
+redis               # Explicit Redis client.
