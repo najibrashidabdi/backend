@@ -1,0 +1,7 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "pip install -r requirement.txt",
+    "startCommand": "gunicorn quiz_backend.wsgi"
+  }
+}
