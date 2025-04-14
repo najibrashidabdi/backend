@@ -30,9 +30,11 @@ CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
     "https://quizeforslstudents.vercel.app",  # ✅ no trailing slash, no semicolon
+    "backend-production-d010.up.railway.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://quizeforslstudents.vercel.app/"
+    "https://quizeforslstudents.vercel.app/",
+    "backend-production-d010.up.railway.app",
 ]
 
 
