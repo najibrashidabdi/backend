@@ -28,6 +28,14 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = False
 
+CORS_ALLOWED_ORIGINS = [
+    "https://quizeforslstudents.vercel.app/",  # your Vercel frontend
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://quizeforslstudents.vercel.app/"
+]
+
 
 
 # Application definition
@@ -41,7 +49,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",       # Django REST framework
-               # Our quiz application
+    "corsheaders",      # Our quiz application
     "channels",   
     "quiz_app",            # Django Channels
 ]
