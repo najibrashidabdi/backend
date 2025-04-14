@@ -8,3 +8,4 @@ psycopg2
 serverless-wsgi
 django-cors-headers
 whitenoise
+dj-database-url
