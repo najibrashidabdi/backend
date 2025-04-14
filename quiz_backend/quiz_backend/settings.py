@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-ri2h_idm(rcau^&ejupt9h93&t&q$9-j%v(3vz&4bz#6h#4hi7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://quizeforslstudents.vercel.app/",".vercel.app","127.0.0.1",
-    "localhost",]
+ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = False
 
 
